@@ -1,0 +1,18 @@
+{
+  "apps": [
+    {
+      "app_id": "app_f2c6b152-6144-448c-aa71-8be3a9fed548",
+      "org_id": "orga_cadff91d-f355-490f-ab11-cfbf4600fc2c",
+      "deploy_url": "https://push-n2-par-clevercloud-customers.services.clever-cloud.com/app_f2c6b152-6144-448c-aa71-8be3a9fed548.git",
+      "name": "sales",
+      "alias": "sales"
+    },
+    {
+      "app_id": "app_fe79c87e-3a4f-4637-ab96-05d6ebcf0432",
+      "org_id": "user_497a4612-f394-47fd-8b15-89a5d0e08070",
+      "deploy_url": "https://push-n2-par-clevercloud-customers.services.clever-cloud.com/app_fe79c87e-3a4f-4637-ab96-05d6ebcf0432.git",
+      "name": "goliath-project",
+      "alias": "goliath-project"
+    }
+  ]
+}
