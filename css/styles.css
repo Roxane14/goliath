@@ -11337,19 +11337,19 @@ a.no-decoration{
   justify-content: space-between;
 }
 
-.bi-facebook{
+.social-media .bi-facebook{
   color: #3B5998;
 }
 
-.bi-twitter{
+.social-media .bi-twitter{
   color: #55ACEE;
 }
 
-.bi-linkedin{
+.social-media .bi-linkedin{
   color: #007bb5;
 }
 
-.bi-envelope{
+.social-media .bi-envelope{
   color: #dd4b39;
 }
 
