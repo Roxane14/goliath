@@ -11299,3 +11299,11 @@ a.no-decoration{
   text-decoration: none;
   color: #212529;
 }
+
+
+
+/* Ajout de css */
+
+.main-content{
+  display: flex;
+}
