@@ -11337,4 +11337,25 @@ a.no-decoration{
   justify-content: space-between;
 }
 
+.bi-facebook{
+  color: #3B5998;
+}
+
+.bi-twitter{
+  color: #55ACEE;
+}
+
+.bi-linkedin{
+  color: #007bb5;
+}
+
+.bi-envelope{
+  color: #dd4b39;
+}
+
+.social-media .icon{
+  font-size: 2.5rem;
+  margin-right: 10px;
+}
+
 @import url("./bootstrap.css");
