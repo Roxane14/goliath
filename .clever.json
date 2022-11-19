@@ -1,0 +1,11 @@
+{
+  "apps": [
+    {
+      "app_id": "app_fe79c87e-3a4f-4637-ab96-05d6ebcf0432",
+      "org_id": "user_497a4612-f394-47fd-8b15-89a5d0e08070",
+      "deploy_url": "https://push-n2-par-clevercloud-customers.services.clever-cloud.com/app_fe79c87e-3a4f-4637-ab96-05d6ebcf0432.git",
+      "name": "goliath-project",
+      "alias": "goliath-project"
+    }
+  ]
+}
