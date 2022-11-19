@@ -1,9 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
 @import url("./bootstrap.css");
 
-.navbar-nav > * {
+:root {
+  --footer-blue: #3D48B6;
+}
+
+.navbar-nav>* {
   margin-right: 30px;
 }
-.navbar-nav > *:last-child {
+
+.navbar-nav>*:last-child {
   margin-right: 0;
+}
+
+#footerContainer {
+  background-color: var(--footer-blue);
+  color: var(--bs-white);
 }

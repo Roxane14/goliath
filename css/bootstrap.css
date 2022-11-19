@@ -8725,7 +8725,7 @@ fieldset:disabled .btn {
 
 .text-muted {
   --bs-text-opacity: 1;
-  color: #24CB68 !important;
+  color: var(--bs-white) !important;
 }
 
 .text-black-50 {
