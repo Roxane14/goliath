@@ -80,3 +80,8 @@
   border-top-left-radius: calc(12px - 1px);
   border-top-right-radius: calc(12px - 1px);
 }
+
+.gray-overlay{
+  opacity: 50%;
+}
+
