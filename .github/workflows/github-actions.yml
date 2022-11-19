@@ -1,10 +1,10 @@
-name: Push to Clever Cloud host
+name: Deploy to Clever Cloud host
 on:
   push:
     branches:
       - 'main'
 jobs:
-  Push-Clever:
+  deploy:
     runs-on: ubuntu-latest
     steps:
       # This action requires an unshallow working copy,
