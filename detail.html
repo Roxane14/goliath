@@ -5,13 +5,60 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>Projet Goliath - Soutenons les procès climatiques</title>
+        <title>The Goliath Project - Boues rouges déversées dans le Parc national des Calanques</title>
         <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
         <!-- Bootstrap icons-->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-R5NHFQS1LS"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-R5NHFQS1LS');
+        </script>
+        <script type="module">
+            // Import the functions you need from the SDKs you need
+            import { initializeApp } from "https://www.gstatic.com/firebasejs/9.14.0/firebase-app.js";
+            import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.14.0/firebase-analytics.js";
+            // TODO: Add SDKs for Firebase products that you want to use
+            // https://firebase.google.com/docs/web/setup#available-libraries
+        
+            // Your web app's Firebase configuration
+            // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+            const firebaseConfig = {
+            apiKey: "AIzaSyDEndQ5RPLCQ3bdwbKOiyjdPotv1dP7cAU",
+            authDomain: "goliath-dcfd1.firebaseapp.com",
+            projectId: "goliath-dcfd1",
+            storageBucket: "goliath-dcfd1.appspot.com",
+            messagingSenderId: "242555546705",
+            appId: "1:242555546705:web:1d884343ee443610b61c70",
+            measurementId: "G-R5NHFQS1LS"
+            };
+        
+            // Initialize Firebase
+            const app = initializeApp(firebaseConfig);
+            const analytics = getAnalytics(app);
+        </script>
+        <!-- Matomo -->
+        <script>
+            var _paq = window._paq = window._paq || [];
+            /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+            _paq.push(['trackPageView']);
+            _paq.push(['enableLinkTracking']);
+            (function() {
+            var u="//app-1954e5f4-6378-46dc-94f8-64ef661c8a35.cleverapps.io/";
+            _paq.push(['setTrackerUrl', u+'matomo.php']);
+            _paq.push(['setSiteId', '1']);
+            var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+            g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+            })();
+        </script>
+        <!-- End Matomo Code -->
     </head>
     <body>
         <!-- Responsive navbar-->
@@ -52,8 +99,8 @@
 
         <!-- Description section-->
         <section class="bg-light font-white py-5 border-bottom">
-            <div class="container px-5 main-detail-content">
-                <div class="mb-5 center">
+            <div class="container px-5 d-flex flex-column-reverse flex-md-row">
+                <div class="mb-5 me-md-5">
                     <img class="fossiles-img" src="assets/images/boues-rouges.jpg"/>
                     <h2 class="fw-bolder mt-5">Entre 1966 et 2015, plus de 32 millions de tonnes de boues rouges ont été déversées par un pipeline reliant l'usine d'alumine de Gardanne directement à la mer Méditerranée.</h2>
                     <p class="lead mb-4">The Goliath Project s'associe à l'association Notre Affaire Pour Tous, pour mener un recours afin de leur faire cesser ces déversements.</p>
@@ -64,11 +111,11 @@
                     </p>
                 </div>
                 <div class="side">
-                    <div class="datas mb-3">
-                        <div class="data">
+                    <div class="datas mb-3 text-nowrap d-flex flex-column flex-xl-row">
+                        <div class="data mb-2">
                             <strong>204</strong><br/>contribution
                         </div>
-                        <div class="data">
+                        <div class="data mb-2">
                             <strong>9 jours</strong><br/>restants
                         </div>
                         <div class="data">
@@ -145,7 +192,7 @@
 
         <!-- Footer-->
         <div id="footerContainer">
-            <div class="container">
+            <div class="container px-5">
                 <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5">
                     <div class="col mb-3">
                       <a href="/" class="d-flex align-items-center mb-3 link-dark text-decoration-none">
@@ -161,22 +208,20 @@
                     <div class="col mb-3">
                       <h5>Liens</h5>
                       <ul class="nav flex-column">
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Accueil</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Notre mission</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Associations</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Avocats</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Les projets</a></li>
+                        <li class="nav-item mb-2"><a href="/" class="nav-link p-0 text-muted">Accueil</a></li>
+                        <li class="nav-item mb-2"><a href="/index.html#mission" class="nav-link p-0 text-muted">Notre mission</a></li>
+                        <!-- <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Associations</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Avocats</a></li> -->
+                        <li class="nav-item mb-2"><a href="/index.html#projects" class="nav-link p-0 text-muted">Les projets</a></li>
                       </ul>
                     </div>
                 
                     <div class="col mb-3">
                       <h5>Les projets</h5>
                       <ul class="nav flex-column">
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+                        <li class="nav-item mb-2"><a href="/detail.html" class="nav-link p-0 text-muted">Boues rouges dans le Parc national des Calanques</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Marées vertes en bretagne</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Orpaillage illégal et droits des écosystèmes amazoniens</a></li>
                       </ul>
                     </div>
                 </footer>
