@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
 @import url("./bootstrap.css");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css");
 
 :root {
   --footer-blue: #3D48B6;
@@ -18,22 +19,23 @@
   color: var(--bs-white);
 }
 
-.main-detail-content{
+.main-detail-content {
   display: flex;
 }
 
- @media only screen and (max-width: 600px) {
-  .main-detail-content{
+@media only screen and (max-width: 600px) {
+  .main-detail-content {
     flex-direction: column-reverse;
   }
-  
+
 }
 
-.center{
-  margin-right: 50px;;
+.center {
+  margin-right: 50px;
+  ;
 }
 
-.fossiles-img{
+.fossiles-img {
   width: 100%;
 }
 
@@ -53,42 +55,47 @@
   transition: width 500ms ease-in-out;
 }
 
-.datas{
+.datas {
   display: flex;
   justify-content: space-between;
 }
 
-.social-media .bi-facebook{
+.social-media .bi-facebook {
   color: #3B5998;
 }
 
-.social-media .bi-twitter{
+.social-media .bi-twitter {
   color: #55ACEE;
 }
 
-.social-media .bi-linkedin{
+.social-media .bi-linkedin {
   color: #007bb5;
 }
 
-.social-media .icon{
+.social-media .icon {
   font-size: 2.5rem;
   margin-right: 10px;
 }
 
-.font-white{
+.font-white {
   color: #FDF5EC;
 }
 
-.card{
+.card {
   border-radius: 12px;
 }
 
-.card-img-top{
+.card-img-top {
   border-top-left-radius: calc(12px - 1px);
   border-top-right-radius: calc(12px - 1px);
+  <<<<<<< HEAD
 }
 
-.gray-overlay{
+=======
+}
+
+.gray-overlay {
   opacity: 50%;
 }
 
+>>>>>>>main
