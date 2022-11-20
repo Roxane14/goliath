@@ -49,22 +49,20 @@
     <body>
         <!-- Responsive navbar-->
         <nav class="navbar navbar-expand-lg navbar-dark bg-primary py-2">
-            <div class="container px-5">
-                <a class="navbar-brand fw-bold fs-4 d-flex align-items-center" href="#!">
-                    <img src="assets/logo_transparent.png" width="50" height="50" alt="Logo" class="me-2" />
-                     <span class="d-none d-md-block">The Goliath Project</span>
-                    </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="/">Accueil</a></li>
-                        <li class="nav-item"><a class="nav-link" href="/index.html#mission">Notre mission</a></li>
-                        <!-- <li class="nav-item"><a class="nav-link" href="#">Associations</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Avocats</a></li> -->
-                        <li class="nav-item"><a class="nav-link btn-sm btn-primary border text-white px-4" href="/index.html#projects">Les projets</a></li>
-                    </ul>
-                </div>
-            </div>
+          <div class="container px-5">
+              <a class="navbar-brand fw-bold fs-4 d-flex align-items-center" href="index.html">
+                  <img src="assets/logo_transparent.png" width="50" height="50" alt="Logo" class="me-2" />
+                   <span class="d-none d-md-block">The Goliath Project</span>
+                  </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                      <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Accueil</a></li>
+                      <li class="nav-item"><a class="nav-link" href="index.html#mission">Notre mission</a></li>
+                      <li class="nav-item"><a class="nav-link btn-sm btn-primary border text-white px-4" href="index.html#projects">Les projets</a></li>
+                  </ul>
+              </div>
+          </div>
         </nav>
 
         <!-- Header Hero-->
@@ -151,54 +149,6 @@
             </div>
           </div>
           </div>
-        </section>
-        
-         <!-- Contact section-->
-        <section class="bg-light py-5"  id="contact">
-            <div class="container px-5 my-5 px-5">
-                <div class="text-center font-white mb-5">
-                    <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-envelope"></i></div>
-                    <h2 class="fw-bolder">Contact</h2>
-                    <p class="lead mb-0">Le projet vous intéresse ? Laissez-nous votre contact !</p>
-                </div>
-                <div class="row gx-5 justify-content-center">
-                    <div class="col-lg-6">
-                        <form id="contactForm" data-sb-form-api-token="7e1d8e14-3fbf-4eef-b363-358a76bca39c">
-                            <!-- Name input-->
-                            <div class="form-floating mb-3">
-                                <input class="form-control" id="name" type="text" placeholder="Entrez votre nom..." data-sb-validations="required" />
-                                <label for="name">Nom complet</label>
-                                <div class="invalid-feedback" data-sb-feedback="name:required">Le nom est obligatoire.</div>
-                            </div>
-                            <!-- Email address input-->
-                            <div class="form-floating mb-3">
-                                <input class="form-control" id="email" type="email" placeholder="name@example.com" />
-                                <label for="email">Adresse email</label>
-                            </div>
-                            <!-- Phone number input-->
-                            <div class="form-floating mb-3">
-                                <input class="form-control" id="phone" type="tel" placeholder="+33 1 23 45 67 89" />
-                                <label for="phone">Numéro de téléphone</label>
-                            </div>
-                            <!-- Message input-->
-                            <div class="form-floating mb-3">
-                                <textarea class="form-control" id="message" type="text" placeholder="Entrez votre message ici..." style="height: 10rem"></textarea>
-                                <label for="message">Message</label>    
-                            </div>
-                            <!-- Submit success message-->
-                            <div class="d-none" id="submitSuccessMessage">
-                                <div class="text-center mb-3">
-                                    <div class="fw-bolder font-white">Le formulaire a bien été envoyé ! Merci de soutenir la lutte contre les injustices climatiques.</div>
-                                </div>
-                            </div>
-                            <!-- Submit error message-->
-                            <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Erreur lors de l'envoi du message !</div></div>
-                            <!-- Submit Button-->
-                            <div class="d-grid"><button class="btn btn-primary btn-lg disabled" id="submitButton" type="submit">Envoyer</button></div>
-                        </form>
-                    </div>
-                </div>
-            </div>
         </section>
 
         <!-- Footer-->
