@@ -149,40 +149,51 @@
         <section class="bg-light py-5 border-bottom" id="pricing">
             <div class="container px-5 my-5">
                 <div class="text-center mb-5 font-white">
-                    <h2 class="fw-bolder">Payez pour participer aux procès climatiques !</h2>
+                    <h2 class="fw-bolder">Donnez pour participer aux procès climatiques !</h2>
                 </div>
                 <div class="row gx-5 justify-content-center">
                     <!-- Pricing card pro-->
                     <div class="col-lg-6 col-xl-4">
                         <div class="card mb-5 mb-xl-0">
                             <div class="card-body p-5">
-                                <div class="small text-uppercase fw-bold">
-                                    <i class="bi bi-star-fill text-warning"></i>
-                                    Don ponctuel
-                                </div>
-                                <div class="mb-3">
-                                    <span class="display-4 fw-bold">1€</span>
-                                    <span class="text-muted">minimum</span>
-                                </div>
-                                <ul class="list-unstyled mb-4">
-                                    <li class="mb-2">
-                                        <i class="bi bi-check text-primary"></i>
-                                        Virement <strong>unique</strong>
-                                    </li>
-                                    <li class="mb-2">
-                                        <i class="bi bi-check text-primary"></i>
-                                        Montant <strong>libre</strong>
-                                    </li>
-                                    <li class="mb-2">
-                                        <i class="bi bi-check text-primary"></i>
-                                        Paiement <strong>sécurisé</strong>
-                                    </li>
-                                    <li class="mb-2">
-                                        <i class="bi bi-check text-primary"></i>
-                                        Chaque euro compte !
-                                    </li>
-                                </ul>
-                                <div class="d-grid"><a class="btn btn-primary" href="sorry.html">Participer</a></div>
+                                <form id="give-form" class="small text-uppercase fw-bold">
+                                    <p>
+                                        <i class="bi bi-star-fill text-warning"></i>
+                                        Don ponctuel
+                                    </p>
+
+                                    <input type="hidden" name="given-amount" id="given-amount" value="8">
+                                    <div class="row row-cols-3 text-center">
+                                        <div class="col mb-3">
+                                            <button type="button" class="btn btn btn-outline-primary w-100" data-amount="5">5€</button>
+                                        </div>
+                                        <div class="col mb-3">
+                                            <button type="button" class="btn btn btn-primary w-100" data-amount="8">8€</button>
+                                        </div>
+                                        <div class="col mb-3">
+                                            <button type="button" class="btn btn btn-outline-primary w-100" data-amount="15">15€</button>
+                                        </div>
+                                        <div class="col mb-3">
+                                            <button type="button" class="btn btn btn-outline-primary w-100" data-amount="30">30€</button>
+                                        </div>
+                                        <div class="col mb-3">
+                                            <button type="button" class="btn btn btn-outline-primary w-100" data-amount="50">50€</button>
+                                        </div>
+                                        <div class="col mb-3">
+                                            <button type="button" class="btn btn btn-outline-primary w-100" data-amount="100">100€</button>
+                                        </div>
+                                    </div>
+
+                                    <div>
+                                        <h4>Autre</h4>
+                                        <div class="input-group mb-3" style="max-width: 130px">
+                                            <input type="number" class="form-control" placeholder="Autre montant" aria-label="Autre montant" value="8" aria-describedby="give-other" id="give-other" name="give-other" />
+                                            <span class="input-group-text">€</span>
+                                          </div>
+                                    </div>
+
+                                    <input type="submit" class="btn btn-primary mt-3" value="Participer !"/>
+                                </form>
                             </div>
                         </div>
                     </div>
