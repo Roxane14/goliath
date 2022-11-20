@@ -23,6 +23,13 @@
   display: flex;
 }
 
+@media only screen and (max-width: 600px) {
+  .main-detail-content {
+    flex-direction: column-reverse;
+  }
+
+}
+
 .center {
   margin-right: 50px;
   ;
@@ -81,4 +88,14 @@
 .card-img-top {
   border-top-left-radius: calc(12px - 1px);
   border-top-right-radius: calc(12px - 1px);
+  <<<<<<< HEAD
 }
+
+=======
+}
+
+.gray-overlay {
+  opacity: 50%;
+}
+
+>>>>>>>main
