@@ -88,14 +88,13 @@
 .card-img-top {
   border-top-left-radius: calc(12px - 1px);
   border-top-right-radius: calc(12px - 1px);
-  <<<<<<< HEAD
 }
 
-=======
-}
 
 .gray-overlay {
   opacity: 50%;
 }
 
->>>>>>>main
+.side{
+  min-width: 25%;
+}
