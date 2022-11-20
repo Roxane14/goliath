@@ -27,6 +27,6 @@ document.querySelectorAll('#give-form button').forEach(button => {
 })
 
 // Form submition
-document.querySelector('#give-form').addEventListener('submit', e => {
+document.querySelector('#give-form')?.addEventListener('submit', e => {
   _paq.push(['trackEvent', 'Give', `Give ${formAmount.value === formOther.value ? formAmount.value : formOther.value}`, `Give ${formAmount.value === formOther.value ? formAmount.value : formOther.value}`]);
 })
