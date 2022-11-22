@@ -87,3 +87,9 @@
 .side {
   min-width: 25%;
 }
+
+@media screen and (min-width: 768px) {
+  #hero-img {
+    border-radius: 12px;
+  }
+}
